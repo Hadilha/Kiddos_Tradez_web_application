@@ -1,0 +1,41 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+ padding:100px;
+ width:50%;
+ display: flex;
+ justify-content: center;
+}
+.right { 
+    padding:150px;
+    width: 770px;
+    font-size: 19px;
+    font-family: "Arial";
+
+}
+.title{color:#7CB9E8;  
+    font-weight: bold;
+   
+}
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+}
+
+.highlighted2 {
+  color: #7373EF;
+  font-size: 25px;
+
+
+
+}
+.highlighted {
+  color: rgb(255, 94, 0);
+    text-transform: uppercase;
+
+}

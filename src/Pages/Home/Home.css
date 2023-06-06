@@ -1,0 +1,37 @@
+
+	
+	  @media (max-width: 1024px) {
+		.photobox {
+		  display: none;
+		}
+	  }
+	
+	
+	  @media only screen and (min-width: 1536px) {
+		.img {
+		  height: 600px;
+		}
+	  }
+	  
+	  /* For screens with a width of 1280px */
+	  @media only screen and (max-width: 1024px) and (min-width: 1280px) and (max-width: 1535px) {
+		.img {
+			height: 550px;
+		}
+		.descriptiongrid{  width: 400px;}
+	  }
+	  @keyframes moveUpDown {
+		0% {
+		  transform: translateY(0);
+		}
+		50% {
+		  transform: translateY(3%);
+		}
+		100% {
+		  transform: translateY(0);
+		}
+	  }
+	  .photo-background {
+		animation: none;
+	  }
+			

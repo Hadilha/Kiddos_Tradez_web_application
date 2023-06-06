@@ -1,0 +1,26 @@
+
+.ph{ 
+ 
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;    }
+
+
+
+
+
+.dynamictitle {
+  font-family:Proxima Nova , Verdana , Avenir Next;
+  margin-bottom: 10px;
+    font-size:20px;
+    font-weight: 700;
+    color: #2D033B;
+ 
+  }.dynamictitle2 {
+    font-size: 70px;
+    font-family:Proxima Nova , Verdana , Avenir Next;
+    font-weight: 1000;
+    color: #2D033B;
+  
+  }

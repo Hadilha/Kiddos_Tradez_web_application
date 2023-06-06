@@ -1,0 +1,110 @@
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    max-width: 1000px;
+    overflow: auto;
+    background-color: #ffffff69;
+    box-shadow: 0 8px 32px rgba(31, 28, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .login {
+    display: flex;
+    height: 50px;
+    width: 190px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  #login-heading {
+    color: #fefdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+      0px 0px 20px #b393d3;
+    font-size: 20px;
+    margin: 0px;
+  }
+  
+  .inputcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    display: none; /* Added to hide the input container by default */
+  }
+  
+  .logincontainer {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin: 20px;
+  }
+  
+  #welcome-heading {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    color: #fefdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3, 0px 0px 20px #b393d3;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    height: 60%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+    background-repeat: no-repeat;
+  }
+  
+  @media (min-width: 768px) {
+    .box1 {
+      justify-content: flex-start;
+    }
+  
+    .mainContainer {
+      flex-direction: row;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .inputcontainer {
+      width: 50%;
+      display: flex;
+    }
+  
+    #welcome-heading {
+      position: static;
+    }
+  
+  }
+  @media (max-width: 767px) {
+    .logincontainer {
+      width: 100%; /* Set the width to 100% for screen sizes smaller than 768px */
+    }}
+  @media (min-width: 1024px) {
+    .mainContainer {
+      max-width: 1200px;
+    }
+  }
+  
